@@ -9,7 +9,7 @@ font-weight: bold;
 padding-left: 70px;
 display: inline-block;
 }   
-a :hover {
+a:hover {
 background-color: yellow
 }
 /* .lists {
@@ -29,7 +29,7 @@ border-width: 1px;
 }
 .heading {
     color: blue;
-    position: relativefixed
+    position: relative
 }
 .intro {
     padding: 20px;
@@ -43,14 +43,19 @@ border-width: 1px;
     background-color: white;
     display: inline-block;
     width: 45%;
-    padding: 40px, 0;
+    padding: 0px 25px;
     position: relative;
+    margin-right: 20px;
+    margin-left: 60px;
+    margin-top: 50px;
 }
 .side-bar {
     display: inline-block;
-    width: 45%;
+    width: 35%;
     position: relative;
     vertical-align: top;
+    margin-top: 50px;
+    margin-left: 20px
 
 }
 .main-guide {
@@ -58,12 +63,37 @@ border-width: 1px;
     margin-top: 0;
     background-color: white;
     padding: 0;
+    height: 200px;
+    line-height: 25px;
 }
 .main-note {
     /* why cant we use width% */
     margin-top: 0;
+    height: 250px;
     background-color: white;
 }
-.title {
+.title1 {
     margin: 0;
+    padding: 20px 50;
 }
+.title2 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px
+}
+.main-note-p {
+    line-height: 20px;
+    font-size: 15px;
+    padding: 0px 25px;
+}
+.main-note-p2 {
+    text-align: center;
+}
+lists li {
+    text-decoration: blink;
+}
+a {
+    text-decoration: none;
+}
+
+
