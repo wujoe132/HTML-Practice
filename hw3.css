@@ -9,7 +9,7 @@ font-weight: bold;
 padding-left: 70px;
 display: inline-block;
 }   
-a:hover {
+nav a:hover {
 background-color: yellow
 }
 /* .lists {
@@ -89,11 +89,36 @@ border-width: 1px;
 .main-note-p2 {
     text-align: center;
 }
-lists li {
+.lists {
     text-decoration: blink;
+    line-height: 35px;
 }
 a {
     text-decoration: none;
 }
-
-
+li {
+    list-style-type:none;
+}
+.lists ul{
+    padding: 0;
+    font-weight: bold;
+}
+.dropdwon-main:hover .d1 {
+    display: block;
+}
+.dropdown-main:hover .dropdown1 {
+    background-color: #3e8e41;
+}
+.d1 a:hover {
+    background-color: #f1f1f1;
+}
+.d1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-main {
+    position: relative;
+    display: inline-block;
+}
