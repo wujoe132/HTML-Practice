@@ -2,28 +2,48 @@
 <html>
     <head>
         <meta charset ＝"utf-8">
-        <link rel = "stylesheet" href ="./hw3.css">
+        <link rel="stylesheet" href ="./hw3.css">
     </head>
     <body>
-        <nav>
-            <ul class= "dropdown-main">
-                <ul class= "dropdown1">
-                        <a href="https://www.ucdavis.edu/about">ABOUT US </a>
-                        <ul class="d1">
-                            <a href="https://www.ucdavis.edu/about/rankings">Rankings</a>
-                            <a href="https://www.ucdavis.edu/about/locations-maps-parking">Locations</a>
-                            <a href="https://www.ucdavis.edu/about/visit">Visit UC Davis</a>
-                        </ul>
-                </ul>
-                        <a href="https://www.ucdavis.edu/admissions">ADMISSIONS </a>
-                        <a href="https://www.ucdavis.edu/academics">ACADEMICS </a>
-                        <a href="https://www.ucdavis.edu/research">RESEARCH</a>
-                        <a href="https://www.ucdavis.edu/campus-life">CAMPUS LIFE</a>
-                        <a href="https://www.ucdavis.edu/news">NEWS</a>
-                </ul>
-            </ul>
-          
-        </nav>
+        
+        <div class="dropdown-main">
+            <div class="dropwdown-about">
+                <a class="dropdown-about-button" href="https://www.ucdavis.edu/about">ABOUT US </a>
+                <div class="dropdown-about-content">
+                    <a id="about-link" href="https://www.ucdavis.edu/about/rankings">Rankings</a>
+                    <a href="https://www.ucdavis.edu/about/locations-maps-parking">Locations</a>
+                    <a href="https://www.ucdavis.edu/about/visit">Visit UC Davis</a>
+                </div>
+            </div>
+                
+            <div class="dropdown-about">
+                <a class="dropdown-about-button" href="https://www.ucdavis.edu/about">Admission</a>
+                <div class="dropdown-about-content">
+                    <a href="https://www.ucdavis.edu/about/rankings">Rankings</a>
+                    <a href="https://www.ucdavis.edu/about/locations-maps-parking">Locations</a>
+                    <a href="https://www.ucdavis.edu/about/visit">Visit UC Davis</a>
+                </div>
+            </div>
+
+            <div class="dropdown-about">
+                <a class="dropdown-about-button" href="https://www.ucdavis.edu/about">Academics</a>
+                <div class="dropdown-about-content">
+                    <a href="https://www.ucdavis.edu/about/rankings">Rankings</a>
+                    <a href="https://www.ucdavis.edu/about/locations-maps-parking">Locations</a>
+                    <a href="https://www.ucdavis.edu/about/visit">Visit UC Davis</a>
+                </div>
+            </div>
+
+            <div class="dropdown-about">
+                <a class="dropdown-about-button" href="https://www.ucdavis.edu/about">Research</a>
+                <div class="dropdown-about-content">
+                    <a href="https://www.ucdavis.edu/about/rankings">Rankings</a>
+                    <a href="https://www.ucdavis.edu/about/locations-maps-parking">Locations</a>
+                    <a href="https://www.ucdavis.edu/about/visit">Visit UC Davis</a>
+                </div>
+            </div>
+               
+        </div>
             <img class ="profile" src="./hero.jpg">
         <div class ="main-block">
             <div class = "intro">
@@ -65,5 +85,10 @@
                     <p class="main-note-p2"><a href="https://www.ucdavis.edu/majors/blog/">Learn what you can do with your major</a></p>
             </div>
         </div>
+        <!-- <script>
+            console.log("GEt here")
+            // console.log(document.getElementById("about-link"));
+            console.log(document.getElementsByClassName("dropdown-about"));
+        </script> -->
     </body>
 </html>
