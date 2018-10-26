@@ -3,13 +3,7 @@ body {
 background-color:#e5e9ef;
 margin: 0;           
 }
-nav a {
-/* cursor: pointer; */
-font-weight: bold;
-padding-left: 70px;
-display: inline-block;
-}   
-nav a:hover {
+a:hover {
 background-color: yellow
 }
 /* .lists {
@@ -29,7 +23,8 @@ border-width: 1px;
 }
 .heading {
     color: blue;
-    position: relative
+    position: relative;
+    font-family: "Mali"
 }
 .intro {
     padding: 20px;
@@ -118,50 +113,60 @@ li {
     text-decoration: none;
     display: block;
 } */
-/* .dropdown-main {
-    position: relative;
+.dropdown-main {
+    position: relative; 
     display: flex;
     flex-direction: row;
+    font-family: "Satisfy"
+   
 
-} */
+} 
 .dropwdown-about{
     position: relative;
-    display: inline-block;
-    background-color: red;
+    
+    text-align: center
     /* float: left; */
 }
-.dropdown-about-content a {
+/* .dropdown-about-content a {
     display: block;
-}
-.dropdown-about-content {
+} */
+/* .dropdown-about-content {
     position: absolute;
     display: none;
     margin-top: 50px;
-}
+}  */
 /* .dropdown-about-button {
     display: inline-block;
 } */
-.dropdown-about:hover .dropdown-about-content{
+/* .dropdown-about:hover .dropdown-about-content{
     display: inline-block;
     width: 200px;
-}
+} */
 
-/* .dropwdown-admission {
+.dropwdown-admission {
     position: relative;
-    display: inline;
+    display: inline-block;
 }
-.dropdown-admission-content a {
+/* .dropdown-admission-content a {
     display: block;
-}
-.dropdown-admission-content {
+} */
+/* .dropdown-admission-content {
     position: absolute;
     display: none;
     margin-top: 5px;
-}
-.dropdown-admission-button {
+} */
+/* .dropdown-admission-button {
     display: inline-block;
-}
-.dropdown-admission:hover .dropdown-admission-content{
+} */
+/* .dropdown-admission:hover .dropdown-admission-content{
     display: block;
     width: 200px;
-} */
+}  */
+.dropwdown-academics {
+    display: inline-block;
+    position: relative;
+}
+.dropdown-research {
+    display: inline-block;
+    position: relative;
+}
