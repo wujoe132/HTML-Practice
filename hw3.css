@@ -3,9 +3,9 @@ body {
 background-color:#e5e9ef;
 margin: 0;           
 }
-a:hover {
+/* a:hover {
 background-color: yellow
-}
+} */
 /* .lists {
 display: inline-block; 
 } */
@@ -118,18 +118,24 @@ li {
     display: flex;
     flex-direction: row;
     font-family: "Satisfy"
-   
-
 } 
 .dropwdown-about{
     position: relative;
-    
     text-align: center
     /* float: left; */
 }
-/* .dropdown-about-content a {
+.dropdown-about-content a {
     display: block;
-} */
+}
+.dropdown-about-content a:hover {
+    background-color: blue;
+}
+.dropdown-about-content {
+    display: none;
+}
+.dropdown-about .dropwdown-about-cotent:hover {
+    display: block;
+}
 /* .dropdown-about-content {
     position: absolute;
     display: none;
@@ -147,9 +153,14 @@ li {
     position: relative;
     display: inline-block;
 }
-/* .dropdown-admission-content a {
+.dropdown-admission-content {
+    display: none;
+}
+.dropdown-admission-content a {
     display: block;
-} */
+    background-color: yellow;
+
+}
 /* .dropdown-admission-content {
     position: absolute;
     display: none;
@@ -166,7 +177,19 @@ li {
     display: inline-block;
     position: relative;
 }
+.dropdown-academics-content a {
+    display: block;
+}
+.dropdown-academics-content {
+    display: none;
+}
 .dropdown-research {
     display: inline-block;
     position: relative;
+}
+.dropdown-research-content a {
+    display: block;
+}
+.dropdown-research-content {
+    display: none;
 }
