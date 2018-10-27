@@ -23,8 +23,13 @@ border-width: 1px;
 }
 .heading {
     color: blue;
-    position: relative;
     font-family: "Mali"
+}
+.heading2 {
+    border-bottom: solid yellow;
+    padding-bottom: 7px;
+    display: inline-block;
+
 }
 .intro {
     padding: 20px;
@@ -58,7 +63,7 @@ border-width: 1px;
     margin-top: 0;
     background-color: white;
     padding: 0;
-    height: 200px;
+    height: 300px;
     line-height: 25px;
 }
 .main-note {
@@ -70,6 +75,13 @@ border-width: 1px;
 .title1 {
     margin: 0;
     padding: 20px 50;
+    border-bottom: solid;
+    border-color: #7D6F63;
+    display: block;
+    height: 80px
+}
+.title1:hover {
+    background-color: red;
 }
 .title2 {
     font-size: 20px;
@@ -83,6 +95,10 @@ border-width: 1px;
 }
 .main-note-p2 {
     text-align: center;
+    text-decoration: underline;
+}
+.main-note a:hover{
+    text-decoration: underline;
 }
 .lists {
     text-decoration: blink;
@@ -118,7 +134,7 @@ li {
     display: flex;
     flex-direction: row;
     font-family: "Satisfy"
-} 
+}
 .dropwdown-about{
     position: relative;
     text-align: center
@@ -193,3 +209,20 @@ li {
 .dropdown-research-content {
     display: none;
 }
+.main-guide div:hover{
+    background-color: red;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.main-guide div{
+    padding: 0;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 10px;
+    display: block;
+
+}
+.main-guide ul {
+    margin: 0;
+    padding: 0; 
+}
+
