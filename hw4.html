@@ -1,100 +1,309 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="./hw4.css">
+        <link rel="stylesheet" href ="./hw4.css">
+        <link href="https://fonts.googleapis.com/css?family=Acme|proxima-nova|Lucida Grande|Lucida Sans|Helvetica Neue|Helvetica,Arial|sans-serif" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     </head>
     <body>
-        <nav>
-            <ul>
-                <li>
-                    <a href="https://www.ucdavis.edu/about">ABOUT US</a>
-                    <a href="https://www.ucdavis.edu/admissions">ADMISSIONS</a>
-                    <a href="https://www.ucdavis.edu/academics">ACADEMICS</a>
-                    <a href="https://www.ucdavis.edu/research">RESEARCH</a>
-                    <a href="https://www.ucdavis.edu/campus-life">CAMPUS LIFE</a>
-                    <a href="https://www.ucdavis.edu/news">News</a>
-                </li>
-            </ul>
-        </nav>
-        <img src="./hero.jpg">
-        <div class="main">
-            <div class="page">
-                <p>
-                    <a href="https://www.ucdavis.edu/">Home</a> > <a href="https://www.ucdavis.edu/academics">Academics</a> > <span>Majors</span>
-                </p>
-            </div>
-            <div class="main-block">
-                <div class="main-block left">
-                    <div class="main-block intro">
-                        <span class="intro-heading1">100</span><h1 class="intro-heading2">+ Ways to Make Your Mark</h1>
-                    </div>
-                    <div class="main-block intro-p">
-                        Students have more than 100 majors to choose from at UC Davis, including sustainable environmental design and marine and coastal science. Many students aren't sure what they want as a major, and that's OK. Here, you can explore as an undeclared or exploratory major and discover what matters to you.
-                    </div>
-                    <div class>
-                        <form action>
-                            <input class="main-block form"type="text" placeholder="Search Majors and Minors">
-                        </form>
-                    </div>
-                    <div class="main-block lists">
-                        <h3>UC Davis Majors</h3>
-                        <ul>
-                            <li><a href="https://www.ucdavis.edu/majors/aerospace-science-and-engineering">Aerospace Science and Engineering</a></li>
-                            <li><a href="https://www.ucdavis.edu/majors/african-american-and-african-studies">African American and African Studies</a></li>
-                            <li><a href="https://www.ucdavis.edu/majors/agricultural-and-environmental-education">Agricultural and Enviroment Education</a></li>
-                            <li><a href="https://www.ucdavis.edu/majors/american-studies">American Studies</a></li>
-                            <li><a href="https://www.ucdavis.edu/majors/animal-biology">Animal Biology</a></li>
-                            <li><a href="https://www.ucdavis.edu/majors/animal-science">Animal Science</a></li>
-                            <li><a href="https://www.ucdavis.edu/majors/animal-science-and-management">Animal Science and Management</a></li>
-                            <li><a href="https://www.ucdavis.edu/majors/anthropology">Anthropology</a></li>
-                            <li><a href="https://www.ucdavis.edu/majors/applied-mathematics">Apllied Mathematics</a></li>
-                            <li><a href="https://www.ucdavis.edu/majors/applied-physics">Applied Physics</a></li>
-                            <li><a href="https://www.ucdavis.edu/majors/applied-physics"></a>Applied Physics (Major)</li>
-                            <li><a href="https://www.ucdavis.edu/majors/art-history">Art History</a></li>
-                            <li><a href="https://www.ucdavis.edu/majors/art-studio">Art Studio</a></li>
-                            <li><a href="https://www.ucdavis.edu/majors/asian-american-studies">Asian American Studies</a></li>
-                            <li><a href="https://www.ucdavis.edu/majors/atmospheric-science">Atmospheric Science </a></li>
-                            <li><a href="https://www.ucdavis.edu/majors/biochemical-engineering">Biochemical Engineering </a></li>
-                            <li><a href="https://www.ucdavis.edu/majors/biochemistry-and-molecular-biology">Biochemistry and Molecular Biology </a></li>
-                            <li><a href="https://www.ucdavis.edu/majors/biological-sciences">Biological Sciences</a></li>
-                            <li><a href="https://www.ucdavis.edu/majors/biological-systems-engineering">Biological Systems Engineering</a></li>
-                            <li><a href="https://www.ucdavis.edu/majors/biomedical-engineering">Biomedical Engineering</a></li>
-                            <li><a href="https://www.ucdavis.edu/majors/biotechnology">Biotechnology </a></li>
-                            <li><a href="https://www.ucdavis.edu/majors/cell-biology">Cell Biology </a></li>
-                            <li><a href="https://www.ucdavis.edu/majors/chemical-engineering">Chemical Engineering </a></li>
-                        </ul>
-                    </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="https://www.ucdavis.edu/about">ABOUT US</a>
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://www.ucdavis.edu/admissions">ADMISSION <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.ucdavis.edu/academics">ACADEMICS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="https://www.ucdavis.edu/research">Research</a>
+                    </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
                 </div>
-                <div class="side-bar">
-                    <div class="main-guide">
-                        <h4 class="main-guide title"><a href="https://www.ucdavis.edu/majors">Majors</a></h4>
+        </nav>
+        
+<!--         
+        <nav class="dropdown-main">
+            <img src="https://www.ucdavis.edu/sites/all/themes/ucd_one/logo.svg" class="logo" alt="Home">
+            <li class="dropwdown-about">
+                <ul><a id="dropdown-about-button" onmouseover="showText()" onmouseout="hideText()" href="https://www.ucdavis.edu/about">ABOUT US </a>
+                    <li class="dropdown-about-content">
+                        <a href="about-link" href="https://www.ucdavis.edu/about/rankings">Rankings</a>
+                        <a href="https://www.ucdavis.edu/about/locations-maps-parking">Locations</a>
+                        <a href="https://www.ucdavis.edu/about/visit">Visit UC Davis</a>
+                    </li>
+                </ul>
+            </li>
+                
+            <li class="dropdown-admission">
+                <ul><a id="dropdown-admission-button" onmouseover="showText()" onmouseout="hideText()" href="https://www.ucdavis.edu/about">ADMISSION</a>
+                    <li class="dropdown-admission-content">
+                        <a href="https://www.ucdavis.edu/about/rankings">Rankings</a>
+                        <a href="https://www.ucdavis.edu/about/locations-maps-parking">Locations</a>
+                        <a href="https://www.ucdavis.edu/about/visit">Visit UC Davis</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dropdown-academics">
+                <ul><a id="dropdown-academics-button" onmouseover="showText()" onmouseout="hideText()" href="https://www.ucdavis.edu/about">ACADEMICS</a>
+                    <li class="dropdown-academics-content">
+                        <a href="https://www.ucdavis.edu/about/rankings">Rankings</a>
+                        <a href="https://www.ucdavis.edu/about/locations-maps-parking">Locations</a>
+                        <a href="https://www.ucdavis.edu/about/visit">Visit UC Davis</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dropdown-research">
+               <ul><a id="dropdown-research-button" onmouseover="showText()" onmouseout="hideText()" href="https://www.ucdavis.edu/about">RESEARCH</a>
+                    <li class="dropdown-research-content">
+                        <a href="https://www.ucdavis.edu/about/rankings">Rankings</a>
+                        <a href="https://www.ucdavis.edu/about/locations-maps-parking">Locations</a>
+                        <a href="https://www.ucdavis.edu/about/visit">Visit UC Davis</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <ul><a href="https://www.ucdavis.edu/campus-life">CAMPUS LIFE</a>
+                    <li>
+                        <a href="https://www.ucdavis.edu/about/rankings">Rankings</a>
+                        <a href="https://www.ucdavis.edu/about/locations-maps-parking">Locations</a>
+                        <a href="https://www.ucdavis.edu/about/visit">Visit UC Davis</a>
+                    </li> 
+                 </ul>
+            </li>
+            <li> 
+                <ul><a href="https://www.ucdavis.edu/news">NEWS</a> 
+                    <li>
+                        <a href="https://www.ucdavis.edu/about/rankings">Rankings</a>
+                        <a href="https://www.ucdavis.edu/about/locations-maps-parking">Locations</a>
+                        <a href="https://www.ucdavis.edu/about/visit">Visit UC Davis</a>
+                    </li> 
+                </ul>
+            </li> 
+        </nav>  -->
+
+            <img class="profile" src="./hero.jpg">
+        <div class="main-front">
+                <p><a href="https://www.ucdavis.edu/">Home</a> > <a href="https://www.ucdavis.edu/academics">Academics</a> > <span class="front">Majors</span></p>
+        </div>   
+        
+        
+        <!-- #3 Main container -->
+        <div class="main">
+            <div class="main-block">
+                <div class="intro">
+                    <div class="heading">
+                        <span class ="heading2">100</span><h2 class="heading1">+ Ways to Make Your Mark</h2>
+                    </div>
+                    <p class = "heading-para">Students have more than 100 majors to choose from at UC Davis, including sustainable environmental design and marine and coastal science. Many students aren't sure what they want as a major, and that's OK. Here, you can explore as an undeclared or exploratory major and discover what matters to you.</p>
+                <div>
+                    <form action>
+                        <input type="text" placeholder="Search Majors and Minors ...">
+                        <a href="https://www.ucdavis.edu/search/majors/"><i class="fas fa-search icon"></i></a>
+                    </form>
+                </div>
+                </div>
+                <div class="lists">
+                    <h3>UC Davis Majors</h3>
+                    <ul>
+                        <li>
+                            <a href="https://www.ucdavis.edu/majors/aerospace-science-and-engineering">
+                                Aerospace Science and Engineering
+                            </a>
+                        </li>
+                        <li><a href="https://www.ucdavis.edu/majors/african-american-and-african-studies">African American and African Studies</a></li>
+                        <li><a href="https://www.ucdavis.edu/majors/agricultural-and-environmental-education">Agricultural and Enviroment Education</a></li>
+                        <li><a href="https://www.ucdavis.edu/majors/american-studies">American Studies</a></li>
+                        <li><a href="https://www.ucdavis.edu/majors/animal-biology">Animal Biology</a></li>
+                        <li><a href="https://www.ucdavis.edu/majors/animal-science">Animal Science</a></li>
+                        <li><a href="https://www.ucdavis.edu/majors/animal-science-and-management">Animal Science and Management</a></li>
+                        <li><a href="https://www.ucdavis.edu/majors/anthropology">Anthropology</a></li>
+                        <li><a href="https://www.ucdavis.edu/majors/applied-mathematics">Apllied Mathematics</a></li>
+                        <li><a href="https://www.ucdavis.edu/majors/applied-physics">Applied Physics</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class ="side-bar">
+                <div class ="main-guide">
+                        <h4 class="title1">
+                            <a href="https://www.ucdavis.edu/majors">Majors</a>
+                        </h4>
                         <ul>
-                            <div>
-                                <span>></span>
+                            <div class="major-links">
+                                <span>> </span>
                                 <a href="https://www.ucdavis.edu/majors/college">Majors by College</a>
                             </div>
-                            <div>
-                                <span>></span>
+                            <div class="major-links">
+                                <span>> </span>
                                 <a href="https://www.ucdavis.edu/minors">Minors</a>
                             </div>
-                            <div>
-                                <span>></span>
+                            <div class="major-links">
+                                <span>> </span>
                                 <a href="https://www.ucdavis.edu/minors/college">Minors by College</a>
                             </div>
-                            <div>
-                                <span>></span>
-                                <a href="https://www.ucdavis.edu/majors/blog/">What Can I Do With My Major? Blog</a>  
+                            <div class="major-links">
+                                <span>> </span>
+                                <a href="https://www.ucdavis.edu/majors/blog/">What Can I Do With My Major? Blog</a>
                             </div>
                         </ul>
-                    </div>
-                    <div class="main-question">
+                </div>
+                <div class = "main-note">
                         <h5 class="title2"><a href="https://www.ucdavis.edu/majors/blog/">What Can I Do With My Major</a></h5>
                         <p class="main-note-p">Read our new blog – <a href= "https://www.ucdavis.edu/majors/blog/">"What Can I Do with My Major?"</a> – to learn about college majors and how to develop your career. You'll discover useful resources, great advice and alumni careers that inspire you.</p>
                         <p class="main-note-p2"><a href="https://www.ucdavis.edu/majors/blog/">Learn what you can do with your major</a></p>
-                    </div>
                 </div>
             </div>
-        </div>
+        </div> 
+
+        <!-- #4 Bottom contianer -->
+        <!-- <div class="bottom-links">
+            <p>
+                This is not important
+                <i class="fab fa-alipay"></i>
+            </p>
+        </div> -->
+
+        <!-- Load external libraries for bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     </body>
+<!-- Footer -->
+    <footer class="page-footer font-small indigo">
+
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left">
+    
+          <!-- Grid row -->
+          <div class="row">
+    
+            <!-- Grid column -->
+            <div class="col-md-3 mx-auto">
+    
+              <!-- Links -->
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Students</h5>
+    
+              <ul class="list-unstyled">
+                <li>
+                  <a href="https://orientation.ucdavis.edu/">Orientation</a>
+                </li>
+                <li>
+                  <a href="https://www.ucdavis.edu/students/resources/#footer">Student Resources</a>
+                </li>
+                <li>
+                  <a href="https://grad.ucdavis.edu/resources">Graduate Students</a>
+                </li>
+                <li>
+                  <a href="https://www.ucdavis.edu/commencement">Commencement</a>
+                </li>
+              </ul>
+    
+            </div>
+            <!-- Grid column -->
+    
+            <hr class="clearfix w-100 d-md-none">
+    
+            <!-- Grid column -->
+            <div class="col-md-3 mx-auto">
+    
+              <!-- Links -->
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Alumni</h5>
+    
+              <ul class="list-unstyled">
+                <li>
+                  <a href="https://www.alumni.ucdavis.edu/">Cal Aggie Alumni Association</a>
+                </li>
+                <li>
+                  <a href="https://www.alumni.ucdavis.edu/career-resources">Career Connections</a>
+                </li>
+                <li>
+                  <a href="https://www.alumni.ucdavis.edu/membership/alumni-and-friends">Member Benefits</a>
+                </li>
+                <li>
+                  <a href="https://magazine.ucdavis.edu/">UC Daivs Magazine</a>
+                </li>
+              </ul>
+    
+            </div>
+            <!-- Grid column -->
+    
+            <hr class="clearfix w-100 d-md-none">
+    
+            <!-- Grid column -->
+            <div class="col-md-3 mx-auto">
+    
+              <!-- Links -->
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Staff</h5>
+    
+              <ul class="list-unstyled">
+                <li>
+                  <a href="https://www.ucdavis.edu/staff/resources/#footer">Resources</a>
+                </li>
+                <li>
+                  <a href="https://hr.ucdavis.edu/departments/learning-dev">Training</a>
+                </li>
+                <li>
+                  <a href="https://www.ucdavis.edu/jobs/benefits/#footer">Benefits</a>
+                </li>
+                <li>
+                  <a href="https://www.ucdavis.edu/jobs/staff/#footer">Jobs</a>
+                </li>
+              </ul>
+    
+            </div>
+            <!-- Grid column -->
+    
+            <hr class="clearfix w-100 d-md-none">
+    
+            <!-- Grid column -->
+            <div class="col-md-3 mx-auto">
+    
+              <!-- Links -->
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Faculty</h5>
+    
+              <ul class="list-unstyled">
+                <li>
+                  <a href="https://www.ucdavis.edu/faculty/resources/#footer">Resources</a>
+                </li>
+                <li>
+                  <a href="https://www.ucdavis.edu/faculty/resources/teaching/#footer">Teaching</a>
+                </li>
+                <li>
+                  <a href="https://www.ucdavis.edu/research/#footer">Research</a>
+                </li>
+                <li>
+                  <a href="https://www.ucdavis.edu/jobs/benefits/#footer">Benefits</a>
+                </li>
+              </ul>
+    
+            </div>
+            <!-- Grid column -->
+    
+          </div>
+          <!-- Grid row -->
+    
+        </div>
+        <!-- Footer Links -->
+    
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3"> Copyright
+        <p>© The Regents of the University of California, Davis campus. All rights reserved.</p>
+        </div>
+        <!-- Copyright -->
+    
+    </footer>
+      <!-- Footer -->
 </html>
