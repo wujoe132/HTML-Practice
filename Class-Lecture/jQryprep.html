@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <h2 class="heading">Hello World!</h2>
+        <a id="button" onclick="changeText(this)" onmousedown="showText()" onmouseup="hideText()" href="#">Click ME!</a>
+        <p id="para" onclick="changeColor(this)" style="visibility: hidden">I'm so excited to be here.</p>
+        <p id="para2">I never had so much fun!</p>
+        <script>
+            $(document).ready(function() {
+                // console.log($(".heading"));
+                // console.log($("#para"));
+                // console.log(typeof $("p"));
+                $("#button").click(function(){
+                    $("#para").fadeIn();
+                })
+            })
+        </script>
+
+
+        <script>
+                // Vanila JavaScript ==> JS DOM Manipulation 
+                // jQuery
+                // console.log("get here");
+                // console.log(document.getElementsByClassName("para"));
+                document.getElementsByClassName("para")[0].innerHTML = "what?!";
+        
+                // Assign the HTML content of the first paragraph to variable content
+                var content = document.getElementsByClassName("para")[0].innerHTML;
+        
+                // Get all p elements
+                var paragraphs = document.getElementsByTagName("p");
+                // Loop through the collection of p elements and log their HTML content
+                for (var i = 0; i < paragraphs.length; i++) {
+                    console.log(paragraphs[i].innerHTML);
+                }
+               document.getElementById("button").style.color = "red";
+               document.getElementById("button").style.textDecoration = "none";
+        
+                // event, click, mouse over, mouse leave, key up, key down
+                function changeColor(element) {
+                    element.style.color = "yellow";
+                }
+                
+                function changeText(element) {
+                    element.innerHTML = "ollallal";
+                    element.innerHTML.toUpperCase();
+                    element.style.color = "green";
+                    console.log(element.innerTEXT)
+                }
+                function showText(){
+                    document.getElementById("para").style.visibility = "visible";
+                }
+                function hideText(){
+                    document.getElementById("para2").style.visibility = "hidden";
+                }
+        </script>
+    </body>
+</html>

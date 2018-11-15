@@ -1,0 +1,167 @@
+
+body {
+background-color:#e5e9ef;
+margin: 0;           
+}
+nav a {
+/* cursor: pointer; */
+font-weight: bold;
+padding-left: 70px;
+display: inline-block;
+}   
+nav a:hover {
+background-color: yellow
+}
+/* .lists {
+display: inline-block; 
+} */
+.profile {
+width: 100%;
+height: auto;
+}
+.input {
+width: 75%;
+height: 40px;
+font-style: italic;
+font-size: 20px;
+border-color: grey;
+border-width: 1px;
+}
+.heading {
+    color: blue;
+    position: relative
+}
+.intro {
+    padding: 20px;
+    display: inline;
+}
+.heading-para {
+    letter-spacing: 1px;
+    line-height: 150%;
+}
+.main-block {
+    background-color: white;
+    display: inline-block;
+    width: 45%;
+    padding: 0px 25px;
+    position: relative;
+    margin-right: 20px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.side-bar {
+    display: inline-block;
+    width: 35%;
+    position: relative;
+    vertical-align: top;
+    margin-top: 50px;
+    margin-left: 20px
+
+}
+.main-guide {
+   
+    margin-top: 0;
+    background-color: white;
+    padding: 0;
+    height: 200px;
+    line-height: 25px;
+}
+.main-note {
+    /* why cant we use width% */
+    margin-top: 0;
+    height: 250px;
+    background-color: white;
+}
+.title1 {
+    margin: 0;
+    padding: 20px 50;
+}
+.title2 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px
+}
+.main-note-p {
+    line-height: 20px;
+    font-size: 15px;
+    padding: 0px 25px;
+}
+.main-note-p2 {
+    text-align: center;
+}
+.lists {
+    text-decoration: blink;
+    line-height: 35px;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type:none;
+}
+.lists ul{
+    padding: 0;
+    font-weight: bold;
+}
+/* .dropdwon-main:hover .d1 {
+    display: block;
+} */
+/* .dropdown-main:hover .dropdown1 {
+    background-color: #3e8e41;
+} */
+/* .d1 a:hover {
+    background-color: #f1f1f1;
+} */
+/* .d1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+} */
+/* .dropdown-main {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+} */
+.dropwdown-about{
+    position: relative;
+    display: inline-block;
+    background-color: red;
+    /* float: left; */
+}
+.dropdown-about-content a {
+    display: block;
+}
+.dropdown-about-content {
+    position: absolute;
+    display: none;
+    margin-top: 50px;
+}
+/* .dropdown-about-button {
+    display: inline-block;
+} */
+.dropdown-about:hover .dropdown-about-content{
+    display: inline-block;
+    width: 200px;
+}
+
+/* .dropwdown-admission {
+    position: relative;
+    display: inline;
+}
+.dropdown-admission-content a {
+    display: block;
+}
+.dropdown-admission-content {
+    position: absolute;
+    display: none;
+    margin-top: 5px;
+}
+.dropdown-admission-button {
+    display: inline-block;
+}
+.dropdown-admission:hover .dropdown-admission-content{
+    display: block;
+    width: 200px;
+} */

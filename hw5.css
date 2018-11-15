@@ -1,0 +1,66 @@
+body {
+    background-color: pink;
+}
+
+.main {
+    padding: 40px 0 40px 0;
+    background-color: white;
+    /* display: flex; */
+    /* align-content: space-between; */
+    background-color: white;
+    margin: 0 350px;
+
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.img-top-left, .img-top-right, .img-bottom-left, .img-bottom-right  {
+    margin-bottom: 35px;
+}
+
+
+.top-left-block img {
+    width: 400px;
+    height: 200px;
+    padding: 0 25px 0 0;
+}
+
+
+.top-right-block img {
+    width: 250px;
+    height: 200px;
+}
+
+.bottom-left-block img {
+    width: 200px;
+    height: 200px;
+    padding: 0 25px 0 0;
+}
+
+.bottom-right-block img {
+    width: 400px;
+    height: 200px;
+}
+
+.para1, .para2, .para3, .para4 {
+    line-height: 2px;
+    font-size: 10px;
+}
+
+.para1-bottom, .para2-bottom, .para3-bottom, .para4-bottom {
+    color: grey;
+}
+
+.long-w {
+    width:200px
+}
+

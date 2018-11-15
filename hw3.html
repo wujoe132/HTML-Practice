@@ -3,11 +3,13 @@
     <head>
         <meta charset ＝"utf-8">
         <link rel="stylesheet" href ="./hw3.css">
-        <link href="https://fonts.googleapis.com/css?family=Acme|Amatic+SC|Charmonman|Cinzel|Dancing+Script|Gloria+Hallelujah|Indie+Flower|Josefin+Sans|Kodchasan|Libre+Baskerville|Lobster|Mali|Nunito+Sans|Lato" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Acme|proxima-nova|Lucida Grande|Lucida Sans|Helvetica Neue|Helvetica,Arial|sans-serif" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     </head>
     <body>
         
         <nav class="dropdown-main">
+            <img src="https://www.ucdavis.edu/sites/all/themes/ucd_one/logo.svg" class="logo" alt="Home">
             <li class="dropwdown-about">
                 <ul><a id="dropdown-about-button" onmouseover="showText()" onmouseout="hideText()" href="https://www.ucdavis.edu/about">ABOUT US </a>
                     <li class="dropdown-about-content">
@@ -19,7 +21,7 @@
             </li>
                 
             <li class="dropdown-admission">
-                <ul><a id="dropdown-admission-button" onmouseover="showText()" onmouseout="hideText()" href="https://www.ucdavis.edu/about">Admission</a>
+                <ul><a id="dropdown-admission-button" onmouseover="showText()" onmouseout="hideText()" href="https://www.ucdavis.edu/about">ADMISSION</a>
                     <li class="dropdown-admission-content">
                         <a href="https://www.ucdavis.edu/about/rankings">Rankings</a>
                         <a href="https://www.ucdavis.edu/about/locations-maps-parking">Locations</a>
@@ -29,7 +31,7 @@
             </li>
 
             <li class="dropdown-academics">
-                <ul><a id="dropdown-academics-button" onmouseover="showText()" onmouseout="hideText()" href="https://www.ucdavis.edu/about">Academics</a>
+                <ul><a id="dropdown-academics-button" onmouseover="showText()" onmouseout="hideText()" href="https://www.ucdavis.edu/about">ACADEMICS</a>
                     <li class="dropdown-academics-content">
                         <a href="https://www.ucdavis.edu/about/rankings">Rankings</a>
                         <a href="https://www.ucdavis.edu/about/locations-maps-parking">Locations</a>
@@ -39,7 +41,7 @@
             </li>
 
             <li class="dropdown-research">
-               <ul><a id="dropdown-research-button" onmouseover="showText()" onmouseout="hideText()" href="https://www.ucdavis.edu/about">Research</a>
+               <ul><a id="dropdown-research-button" onmouseover="showText()" onmouseout="hideText()" href="https://www.ucdavis.edu/about">RESEARCH</a>
                     <li class="dropdown-research-content">
                         <a href="https://www.ucdavis.edu/about/rankings">Rankings</a>
                         <a href="https://www.ucdavis.edu/about/locations-maps-parking">Locations</a>
@@ -47,66 +49,98 @@
                     </li>
                 </ul>
             </li>
+
+            <li>
+                <ul><a href="https://www.ucdavis.edu/campus-life">CAMPUS LIFE</a>
+                    <!-- <li>
+                        <a href="https://www.ucdavis.edu/about/rankings">Rankings</a>
+                        <a href="https://www.ucdavis.edu/about/locations-maps-parking">Locations</a>
+                        <a href="https://www.ucdavis.edu/about/visit">Visit UC Davis</a>
+                    </li> -->
+                </ul>
+            </li>
+            
+            <li>
+                <ul><a href="https://www.ucdavis.edu/news">NEWS</a>
+                    <!-- <li>
+                        <a href="https://www.ucdavis.edu/about/rankings">Rankings</a>
+                        <a href="https://www.ucdavis.edu/about/locations-maps-parking">Locations</a>
+                        <a href="https://www.ucdavis.edu/about/visit">Visit UC Davis</a>
+                    </li> -->
+                </ul>
+            </li>
                
         </nav>
             <img class="profile" src="./hero.jpg">
-        <div class="main-block">
-            <div class="intro">
-                <div class="heading">
-                    <span class ="heading2">100</span><h2 class="heading1">+ Ways to Make Your Mark</h2>
+        <div class="main-front">
+                <p><a href="https://www.ucdavis.edu/">Home</a> > <a href="https://www.ucdavis.edu/academics">Academics</a> > <span class="front">Majors</span></p>
+        </div>    
+        <div class="main">
+            <div class="main-block">
+                <div class="intro">
+                    <div class="heading">
+                        <span class ="heading2">100</span><h2 class="heading1">+ Ways to Make Your Mark</h2>
+                    </div>
+                    <p class = "heading-para">Students have more than 100 majors to choose from at UC Davis, including sustainable environmental design and marine and coastal science. Many students aren't sure what they want as a major, and that's OK. Here, you can explore as an undeclared or exploratory major and discover what matters to you.</p>
+                <div>
+                    <form action>
+                        <input type="text" placeholder="Search Majors and Minors ...">
+                        <i class="fas fa-search icon"></i>
+                        <a href="https://www.ucdavis.edu/search/majors/"><i class="fas fa-search icon"></i></a>
+                    </form>
                 </div>
-                <p class = "heading-para">Students have more than 100 majors to choose from at UC Davis, including sustainable environmental design and marine and coastal science. Many students aren't sure what they want as a major, and that's OK. Here, you can explore as an undeclared or exploratory major and discover what matters to you.</p>
-                <form action>
-                    <input class="input" type="text" placeholder="Search Majors and Minors">
-                </form>
-            </div>
-            <div class="lists">
-                <h3>UC Davis Majors</h3>
-                <ul>
-                    <li>
-                        <a href="https://www.ucdavis.edu/majors/aerospace-science-and-engineering">
-                            Aerospace Science and Engineering
-                        </a>
-                    </li>
-                    <li><a href="https://www.ucdavis.edu/majors/african-american-and-african-studies">African American and African Studies</a></li>
-                    <li><a href="https://www.ucdavis.edu/majors/agricultural-and-environmental-education">Agricultural and Enviroment Education</a></li>
-                    <li><a href="https://www.ucdavis.edu/majors/american-studies">American Studies</a></li>
-                    <li><a href="https://www.ucdavis.edu/majors/animal-biology">Animal Biology</a></li>
-                    <li><a href="https://www.ucdavis.edu/majors/animal-science">Animal Science</a></li>
-                    <li><a href="https://www.ucdavis.edu/majors/animal-science-and-management">Animal Science and Management</a></li>
-                    <li><a href="https://www.ucdavis.edu/majors/anthropology">Anthropology</a></li>
-                    <li><a href="https://www.ucdavis.edu/majors/applied-mathematics">Apllied Mathematics</a></li>
-                    <li><a href="https://www.ucdavis.edu/majors/applied-physics">Applied Physics</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class ="side-bar">
-            <div class ="main-guide">
-                    <h4 class="title1"><a href="https://www.ucdavis.edu/majors">Majors</a></h4>
+                </div>
+                <div class="lists">
+                    <h3>UC Davis Majors</h3>
                     <ul>
-                        <div class="major-links">
-                            <span>></span>
-                            <a href="https://www.ucdavis.edu/majors/college">Majors by College</a>
-                        </div>
-                        <div class="major-links">
-                            <span>></span>
-                            <a href="https://www.ucdavis.edu/minors">Minors</a>
-                        </div>
-                        <div class="major-links">
-                            <span>></span>
-                            <a href="https://www.ucdavis.edu/minors/college">Minors by College</a>
-                        </div>
-                        <div class="major-links">
-                            <span>></span>
-                            <a href="https://www.ucdavis.edu/majors/blog/">What Can I Do With My Major? Blog</a>
-                        </div>
+                        <li>
+                            <a href="https://www.ucdavis.edu/majors/aerospace-science-and-engineering">
+                                Aerospace Science and Engineering
+                            </a>
+                        </li>
+                        <li><a href="https://www.ucdavis.edu/majors/african-american-and-african-studies">African American and African Studies</a></li>
+                        <li><a href="https://www.ucdavis.edu/majors/agricultural-and-environmental-education">Agricultural and Enviroment Education</a></li>
+                        <li><a href="https://www.ucdavis.edu/majors/american-studies">American Studies</a></li>
+                        <li><a href="https://www.ucdavis.edu/majors/animal-biology">Animal Biology</a></li>
+                        <li><a href="https://www.ucdavis.edu/majors/animal-science">Animal Science</a></li>
+                        <li><a href="https://www.ucdavis.edu/majors/animal-science-and-management">Animal Science and Management</a></li>
+                        <li><a href="https://www.ucdavis.edu/majors/anthropology">Anthropology</a></li>
+                        <li><a href="https://www.ucdavis.edu/majors/applied-mathematics">Apllied Mathematics</a></li>
+                        <li><a href="https://www.ucdavis.edu/majors/applied-physics">Applied Physics</a></li>
                     </ul>
+                </div>
             </div>
-            <div class = "main-note">
-                    <h5 class="title2"><a href="https://www.ucdavis.edu/majors/blog/">What Can I Do With My Major</a></h5>
-                    <p class="main-note-p">Read our new blog – <a href= "https://www.ucdavis.edu/majors/blog/">"What Can I Do with My Major?"</a> – to learn about college majors and how to develop your career. You'll discover useful resources, great advice and alumni careers that inspire you.</p>
-                    <p class="main-note-p2"><a href="https://www.ucdavis.edu/majors/blog/">Learn what you can do with your major</a></p>
+            <div class ="side-bar">
+                <div class ="main-guide">
+                        <h4 class="title1"><a href="https://www.ucdavis.edu/majors">Majors</a></h4>
+                        <ul>
+                            <div class="major-links">
+                                <span>> </span>
+                                <a href="https://www.ucdavis.edu/majors/college">Majors by College</a>
+                            </div>
+                            <div class="major-links">
+                                <span>> </span>
+                                <a href="https://www.ucdavis.edu/minors">Minors</a>
+                            </div>
+                            <div class="major-links">
+                                <span>> </span>
+                                <a href="https://www.ucdavis.edu/minors/college">Minors by College</a>
+                            </div>
+                            <div class="major-links">
+                                <span>> </span>
+                                <a href="https://www.ucdavis.edu/majors/blog/">What Can I Do With My Major? Blog</a>
+                            </div>
+                        </ul>
+                </div>
+                <div class = "main-note">
+                        <h5 class="title2"><a href="https://www.ucdavis.edu/majors/blog/">What Can I Do With My Major</a></h5>
+                        <p class="main-note-p">Read our new blog – <a href= "https://www.ucdavis.edu/majors/blog/">"What Can I Do with My Major?"</a> – to learn about college majors and how to develop your career. You'll discover useful resources, great advice and alumni careers that inspire you.</p>
+                        <p class="main-note-p2"><a href="https://www.ucdavis.edu/majors/blog/">Learn what you can do with your major</a></p>
+                </div>
             </div>
+        </div> 
+        <div>
+            
         </div>
         <!-- <script>
             console.log("GEt here")

@@ -1,0 +1,72 @@
+body {
+    padding: 0 100px;
+}
+
+.main-top {
+    padding: 0 100px;
+}
+
+.main-top-profile {
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.main-top-intro {
+    display: inline-block;
+}
+.main-top-intro h5 {
+    margin: 0;
+    padding: 3px 0;
+}
+.main-top-intro p {
+    margin: 0;
+    padding: 3px 0;
+    color: #9E9E9E;
+    letter-spacing: 0.8px;
+}
+.main-top-heading {
+    margin-top: 80px;
+}
+.main-top-heading h1{
+    font-size: 47px;
+    margin: 0;
+}
+.main-top-heading p {
+    font-size: 30px;
+    color:#9E9E9E;
+    margin:0;
+}
+.main-hero img {
+    width: 100%;
+    margin-top: 80px;
+}
+.main-hero p {
+    text-align: center;
+    margin: 5px 0 0 0;
+}
+.main-content {
+    padding: 0 200px;
+    margin-top: 75px;
+}
+.main-first-line {
+    vertical-align: top;
+}
+.main-content-first-letter {
+    display: block;
+    padding-top: 6px;
+    margin-left: -5px;
+    margin-right: 7px;
+    letter-spacing: -0.03em;
+    line-height: 0.83;
+    margin-bottom: -0.08em;
+    font-size: 120px;
+    margin: 0;
+    line-height: -0.8px;
+    float: left;
+    position:relative;
+}
+.main-content-first-line {
+    display: inline-block;
+    margin-bottom: 50px;
+    line-height: 2.83px;
+}

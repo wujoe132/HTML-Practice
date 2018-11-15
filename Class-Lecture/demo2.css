@@ -1,0 +1,24 @@
+@keyframes changeText {
+    0% {
+      color: red;
+      font-size: 100px;
+      transform: translate(0, 0);
+      opacity: 0;
+    }
+    50% {
+      color: yellow;
+      font-size: 100px;
+      transform: translate(100px, 100px);
+      opacity: 1;
+    }
+    100% {
+      color: green;
+      font-size: 100px;
+      opacity: 0;
+    }
+  }
+  
+  .container1-heading {
+    animation-name: changeText;
+    animation-duration: 4s;
+  }

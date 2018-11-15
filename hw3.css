@@ -1,13 +1,139 @@
-
+/** Style for general setting */
 body {
     background-color:#e5e9ef;
     margin: 0 0 40px 0;           
-    font-family: "Lato";
+    font-family: "elvetica Neue";
 }
 
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+li {
+    list-style-type:none;
+}
+
+/** Style for nav bar */
+.dropdown-main { 
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+    width: 100%;
+    background: #ddd;
+    z-index: 1;
+}
+
+.dropwdown-about{
+    position: relative;
+    text-align: center
+    /* float: left; */
+}
+
+#dropdown-admission-buttom {
+    text-align: left;
+}
+
+.dropdown-about-content a {
+    display: block;
+}
+
+.dropdown-about-content a:hover {
+    background-color: darkblue;
+}
+
+.dropdown-about-content {
+    display: none;
+}
+
+.dropdown-about .dropwdown-about-cotent:hover {
+    display: block;
+}
+
+.dropwdown-admission {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-admission-content {
+    display: none;
+}
+
+.dropdown-admission-content a {
+    display: block;
+    background-color: yellow;
+}
+
+.dropwdown-academics {
+    display: inline-block;
+}
+
+.dropdown-academics-content a {
+    display: block;
+}
+
+.dropdown-academics-content {
+    display: none;
+}
+
+.dropdown-research {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-research-content a {
+    display: block;
+}
+
+.dropdown-research-content {
+    display: none;
+}
+
+/** Style for heading img */
 .profile {
     width: 100%;
     height: auto;
+}
+
+/** Style for Home button */
+.main-front {
+    padding-left: 83px;
+    padding-top: 15px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.front {
+    color: grey;
+}
+
+/** Style for the whole blcok */
+.main {
+    padding: 16px 16px;
+    margin: 32px 32px;
+    display: flex;
+}
+
+/** Style for the whole left block */
+.main-block {
+    background-color: white;
+    /* display: inline-block; */
+    width: 66%;
+    padding: 0px 25px;
+    /* position: relative; */
+    /* margin-right: 20px; */
+    /* margin-left: 60px; */
+    /* margin-top: 50px; */
+    margin-right: 10px;
+    margin-left: 35px;
+}
+
+.intro {
+    padding: 20px;
+    display: inline;
 }
 
 .heading {
@@ -28,99 +154,34 @@ body {
     font-size: 29px;
 }
 
-.intro {
-    padding: 20px;
-    display: inline;
-}
-
 .heading-para {
     letter-spacing: 1px;
     line-height: 150%;
 }
 
-.input {
-    width: 75%;
-    height: 40px;
+input {
     font-style: italic;
-    font-size: 20px;
-    border-color: grey;
-    border-width: 1px;
-    }
-
-.main-block {
-    background-color: white;
-    display: inline-block;
-    width: 45%;
-    padding: 0px 25px;
-    position: relative;
-    margin-right: 20px;
-    margin-left: 60px;
-    margin-top: 50px;
-}
-
-.side-bar {
-    display: inline-block;
-    width: 35%;
-    position: relative;
-    vertical-align: top;
-    margin-top: 50px;
-    margin-left: 20px
-}
-
-.main-guide {
-    margin-top: 0;
-    background-color: white;
-    padding: 0;
-    line-height: 25px;
-}
-
-.main-note {
-    /* why cant we use width% */
-    margin-top: 0;
-    height: 250px;
-    background-color: white;
-}
-
-.title1 {
-    margin: 0;
-    padding: 20px 50px;
-    border-bottom: 1px solid #7D6F63;
-    display: block;
-    transition: background-color .8s;
-    font-size: 30px;
-}
-.title1:hover {
-    background-color: yellow;
-}
-
-.title2 {
-    font-size: 20px;
-    text-align: center;
-    padding-top: 20px
-}
-
-.main-note-p {
-    line-height: 20px;
-    font-size: 15px;
-    padding: 0px 25px;
-}
-
-.main-note-p a{
-    text-decoration: underline;
-}
-
-.main-note-p2 {
-    text-align: center;
-    text-decoration: underline;
-}
-
-.main-note a:hover{
-    text-decoration: underline;
+    width: 80%;
+    height: 2.8em;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 20px;
 }
 
 .lists {
     text-decoration: blink;
     line-height: 35px;
+}
+
+.lists h3 {
+    font-weight: bold;
+    color: purple
+
+}
+.lists ul {
+    padding: 0;
+    font-weight: bold;
 }
 
 .lists ul li a {
@@ -136,75 +197,24 @@ body {
     padding: 10px 0;
 }
 
-a {
-    color: darkblue;
-    text-decoration: none;
+/** Style for side-bar (right block) */
+.side-bar {
+    display: inline-block;
+    width: 34%;
+    position: relative;
+    vertical-align: top;
+    /* margin-top: 50px; */
+    margin-left: 20px;
+    margin-right: 35px;
 }
 
-li {
-    list-style-type:none;
-}
-
-.lists ul {
+.main-guide {
+    margin-top: 0;
+    background-color: white;
     padding: 0;
+    line-height: 25px;
+    /* height: 40%; */
     font-weight: bold;
-}
-
-.dropdown-main { 
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-}
-.dropwdown-about{
-    position: relative;
-    text-align: center
-    /* float: left; */
-}
-#dropdown-admission-buttom {
-    text-align: left;
-}
-.dropdown-about-content a {
-    display: block;
-}
-.dropdown-about-content a:hover {
-    background-color: darkblue;
-}
-.dropdown-about-content {
-    display: none;
-}
-.dropdown-about .dropwdown-about-cotent:hover {
-    display: block;
-}
-.dropwdown-admission {
-    position: relative;
-    display: inline-block;
-}
-.dropdown-admission-content {
-    display: none;
-}
-.dropdown-admission-content a {
-    display: block;
-    background-color: yellow;
-
-}
-.dropwdown-academics {
-    display: inline-block;
-}
-.dropdown-academics-content a {
-    display: block;
-}
-.dropdown-academics-content {
-    display: none;
-}
-.dropdown-research {
-    display: inline-block;
-    position: relative;
-}
-.dropdown-research-content a {
-    display: block;
-}
-.dropdown-research-content {
-    display: none;
 }
 
 .main-guide div{
@@ -219,6 +229,18 @@ li {
     padding: 0; 
 }
 
+.title1 {
+    margin: 0;
+    padding: 25px 37.5px;
+    border-bottom: 1px solid #7D6F63;
+    display: block;
+    transition: background-color .8s;
+    font-size: 30px;
+}
+
+.title1:hover {
+    background-color: #E88FC8;
+}
 
 .major-links span{
     color: #B8860B;
@@ -229,10 +251,59 @@ li {
     font-weight: bold;
     transition: background-color .8s;
     display: flex;
+    padding: 18px 72px;
 }
 
 .major-links:hover {
     cursor: pointer;
-    background-color: yellow;
+    background-color: #E88FC8;
 }
 
+/** Style for right-bottom block */
+.main-note {
+    /* why cant we use width% */
+    margin-top: 0;
+    height: 40%;
+    background-color: white;
+    padding: 0 35px;
+}
+
+.main-note a:hover{
+    text-decoration: underline;
+}
+
+.title2 {
+    font-size: 25px;
+    text-align: left;
+    padding-top: 35px
+}
+
+.main-note-p {
+    line-height: 32px;
+    font-size: 17px;
+}
+
+.main-note-p a{
+    text-decoration: underline;
+    font-weight: bold
+}
+
+.main-note-p2 {
+    text-align: left;
+    text-decoration: underline;
+}
+
+.main-note-p2 a {
+    font-weight: bold;
+}
+
+.icon {
+    position: absolute;
+    right: 18%;
+    bottom: 42px;
+    font-size: 22px;
+}
+
+form {
+    position: relative;
+}
